@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LoadingSpinner from './components/LoadingSpinner';
 import CursorTrail from './components/CursorTrail';
-import Chat from './components/Chat';
+import Chat from './components/chat';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
