@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LoadingSpinner from './components/LoadingSpinner';
 import CursorTrail from './components/CursorTrail';
+import Chat from './components/Chat';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -35,6 +36,7 @@ function App() {
         <Flavors />
         <Health />
         <Contact />
+        <Chat />
       </main>
       <Footer />
     </div>
